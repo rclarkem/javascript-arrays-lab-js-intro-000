@@ -30,7 +30,7 @@ return newKitty
 
 function prependKitten(name){
   let newKitty = [...kittens]
-  newKitty.unshift()
+  newKitty.unshift(name)
   return newKitty
 }
 

@@ -20,3 +20,28 @@ function destructivelyRemoveFirstKitten (){
   kittens.shift()
   return kittens
 }
+
+function appendKitten(name){
+let newKitty = [...kittens]
+newKitty.push(name)
+return newKitty
+}
+
+
+function prependKitten(name){
+  let newKitty = [...kittens]
+  newKitty.unshift()
+  return newKitty
+}
+
+function removeLastKitten(){
+let newKitty = [...kittens]
+newKitty.pop()
+return newKitty
+}
+
+function removeFirstKitten(){
+  let newKitty = [...kittens]
+  newKitty.shift()
+  return newKitty
+}
